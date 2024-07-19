@@ -8,7 +8,7 @@ from twitter_etl_code import run_mahesh_tweets_etk
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
-    'start_date': datetime(2020, 11, 8),
+    'start_date': datetime(2024, 11, 8),
     'email': ['airflow@example.com'],
     'email_on_failure': False,
     'email_on_retry': False,
